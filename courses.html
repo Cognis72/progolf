@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="หลักสูตรสอนกอล์ฟที่โปรธนา กอล์ฟ สตูดิโอ - เหมาะสำหรับทุกวัยตั้งแต่เด็ก 3 ขวบ จนถึงผู้ใหญ่">
+    <meta name="keywords" content="หลักสูตรกอล์ฟ, สอนกอล์ฟเด็ก, คอร์สกอล์ฟ, เรียนกอล์ฟ">
+    <title>หลักสูตร - โปรธนา กอล์ฟ สตูดิโอ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <i class="fas fa-golf-ball" style="color: #2ECC71; font-size: 2rem; margin-right: 10px;"></i>
+                    <h1>โปรธนา กอล์ฟ สตูดิโอ</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" data-th="หน้าแรก" data-en="Home">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="courses.html" class="nav-link active" data-th="หลักสูตร" data-en="Courses">หลักสูตร</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link" data-th="ติดต่อเรา" data-en="Contact">ติดต่อเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="lang-toggle" class="lang-toggle">
+                            <span class="lang-text">EN</span>
+                        </button>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="container">
+                <h1 data-th="หลักสูตรของเรา" data-en="Our Courses">หลักสูตรของเรา</h1>
+                <p data-th="เลือกหลักสูตรที่เหมาะสมกับคุณ" data-en="Choose the course that suits you">เลือกหลักสูตรที่เหมาะสมกับคุณ</p>
+            </div>
+        </section>
+
+        <section class="courses">
+            <div class="container">
+                <div class="courses-intro">
+                    <h2 data-th="หลักสูตรที่หลากหลายสำหรับทุกวัย" data-en="Diverse Courses for All Ages">หลักสูตรที่หลากหลายสำหรับทุกวัย</h2>
+                    <p data-th="เราออกแบบหลักสูตรให้เหมาะสมกับความต้องการและระดับฝีมือที่แตกต่างกัน ตั้งแต่เด็กเล็กที่เพิ่งเริ่มต้น จนถึงผู้ใหญ่ที่ต้องการพัฒนาเพื่อการแข่งขัน" data-en="We design courses to suit different needs and skill levels, from young children just starting out to adults who want to develop for competition">เราออกแบบหลักสูตรให้เหมาะสมกับความต้องการและระดับฝีมือที่แตกต่างกัน 
+                    ตั้งแต่เด็กเล็กที่เพิ่งเริ่มต้น จนถึงผู้ใหญ่ที่ต้องการพัฒนาเพื่อการแข่งขัน</p>
+                </div>
+
+                <div class="courses-grid">
+                    <!-- คอร์สเด็ก -->
+                    <div class="course-card featured">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-baby"></i>
+                            </div>
+                            <div class="course-badge" data-th="ยอดนิยม" data-en="Popular">ยอดนิยม</div>
+                        </div>
+                        <div class="course-content">
+                            <h3 data-th="หลักสูตรสำหรับเด็ก" data-en="Kids Course">หลักสูตรสำหรับเด็ก</h3>
+                            <p class="course-subtitle" data-th="สำหรับเด็ก 3 ขวบขึ้นไป" data-en="For children 3 years and up">สำหรับเด็ก 3 ขวบขึ้นไป</p>
+                            <p class="course-description" data-th="เรียนรู้พื้นฐานกอล์ฟอย่างสนุกสนานผ่านเกมและกิจกรรม เน้นการพัฒนาสมดุลและการประสานงานของร่างกาย" data-en="Learn golf fundamentals through fun games and activities, focusing on developing balance and body coordination">
+                                เรียนรู้พื้นฐานกอล์ฟอย่างสนุกสนานผ่านเกมและกิจกรรม 
+                                เน้นการพัฒนาสมดุลและการประสานงานของร่างกาย
+                            </p>
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span data-th="เรียนแบบเล่นเกม" data-en="Learning through games">เรียนแบบเล่นเกม</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="อุปกรณ์เฉพาะเด็ก" data-en="Kid-specific equipment">อุปกรณ์เฉพาะเด็ก</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="ผู้สอนที่เชี่ยวชาญด้านเด็ก" data-en="Child specialist instructors">ผู้สอนที่เชี่ยวชาญด้านเด็ก</span></li>
+                            </ul>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span>60 นาที/ครั้ง</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user"></i>
+                                    <span>1 ต่อ 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-action">
+                            <a href="contact.html" class="course-button">สอบถามรายละเอียด</a>
+                        </div>
+                    </div>
+
+                    <!-- คอร์สมือใหม่ -->
+                    <div class="course-card">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="course-content">
+                            <h3 data-th="หลักสูตรมือใหม่" data-en="Beginner Course">หลักสูตรมือใหม่</h3>
+                            <p class="course-subtitle" data-th="เหมาะสำหรับผู้เริ่มต้น" data-en="Perfect for beginners">เหมาะสำหรับผู้เริ่มต้น</p>
+                            <p class="course-description" data-th="เรียนรู้พื้นฐานกอล์ฟตั้งแต่เริ่มต้น เน้นท่าทางและเทคนิคที่ถูกต้อง สร้างพื้นฐานที่แข็งแกร่งสำหรับการพัฒนาต่อไป" data-en="Learn golf fundamentals from the beginning, focusing on proper posture and techniques. Build a strong foundation for future development.">
+                                เรียนรู้พื้นฐานกอล์ฟตั้งแต่เริ่มต้น เน้นท่าทางและเทคนิคที่ถูกต้อง 
+                                สร้างพื้นฐานที่แข็งแกร่งสำหรับการพัฒนาต่อไป
+                            </p>
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span data-th="พื้นฐานท่าทางที่ถูกต้อง" data-en="Proper posture fundamentals">พื้นฐานท่าทางที่ถูกต้อง</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="เทคนิควงสวิง" data-en="Swing techniques">เทคนิควงสวิง</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="กฎและมารยาทในสนาม" data-en="Course rules and etiquette">กฎและมารยาทในสนาม</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="การใช้อุปกรณ์พื้นฐาน" data-en="Basic equipment usage">การใช้อุปกรณ์พื้นฐาน</span></li>
+                            </ul>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span data-th="60 นาที/ครั้ง" data-en="60 minutes/session">60 นาที/ครั้ง</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user"></i>
+                                    <span data-th="1 ต่อ 1" data-en="1-on-1">1 ต่อ 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-action">
+                            <a href="contact.html" class="course-button" data-th="สอบถามรายละเอียด" data-en="Inquire Details">สอบถามรายละเอียด</a>
+                        </div>
+                    </div>
+
+                    <!-- คอร์สเยาวชนแข่งขัน -->
+                    <div class="course-card">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-trophy gold-trophy"></i>
+                            </div>
+                        </div>
+                        <div class="course-content">
+                            <h3 data-th="หลักสูตรเยาวชนเพื่อการแข่งขัน" data-en="Youth Competition Course">หลักสูตรเยาวชนเพื่อการแข่งขัน</h3>
+                            <p class="course-subtitle" data-th="สำหรับเยาวชนที่ต้องการแข่งขัน" data-en="For youth who want to compete">สำหรับเยาวชนที่ต้องการแข่งขัน</p>
+                            <p class="course-description" data-th="พัฒนาฝีมือเพื่อการแข่งขันในระดับต่างๆ เน้นการฝึกซ้อมอย่างเป็นระบบ และการเตรียมตัวสำหรับการแข่งขันจริง" data-en="Develop skills for competitions at various levels, focusing on systematic training and preparation for real competitions.">
+                                พัฒนาฝีมือเพื่อการแข่งขันในระดับต่างๆ เน้นการฝึกซ้อมอย่างเป็นระบบ 
+                                และการเตรียมตัวสำหรับการแข่งขันจริง
+                            </p>
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span data-th="เทคนิคขั้นสูง" data-en="Advanced techniques">เทคนิคขั้นสูง</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="ฝึกซ้อมเป็นระบบ" data-en="Systematic training">ฝึกซ้อมเป็นระบบ</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="จิตวิทยาการแข่งขัน" data-en="Competition psychology">จิตวิทยาการแข่งขัน</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="วิเคราะห์ผลงาน" data-en="Performance analysis">วิเคราะห์ผลงาน</span></li>
+                            </ul>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span data-th="60 นาที/ครั้ง" data-en="60 minutes/session">60 นาที/ครั้ง</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-user"></i>
+                                    <span data-th="1 ต่อ 1" data-en="1-on-1">1 ต่อ 1</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-action">
+                            <a href="contact.html" class="course-button" data-th="สอบถามรายละเอียด" data-en="Inquire Details">สอบถามรายละเอียด</a>
+                        </div>
+                    </div>
+
+                    <!-- คอร์สออกรอบ -->
+                    <div class="course-card">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-flag"></i>
+                            </div>
+                        </div>
+                        <div class="course-content">
+                            <h3 data-th="หลักสูตรสำหรับนักกอล์ฟที่อยากออกรอบ" data-en="Course Play Golf Course">หลักสูตรสำหรับนักกอล์ฟที่อยากออกรอบ</h3>
+                            <p class="course-subtitle" data-th="เรียนรู้การเล่นในสนามจริง" data-en="Learn to play on real courses">เรียนรู้การเล่นในสนามจริง</p>
+                            <p class="course-description" data-th="เหมาะสำหรับผู้ที่มีพื้นฐานแล้วและต้องการเรียนรู้การเล่นในสนามจริง รวมถึงกลยุทธ์และการจัดการในสถานการณ์ต่างๆ" data-en="Perfect for those with basic skills who want to learn playing on real courses, including strategies and management in various situations.">
+                                เหมาะสำหรับผู้ที่มีพื้นฐานแล้วและต้องการเรียนรู้การเล่นในสนามจริง 
+                                รวมถึงกลยุทธ์และการจัดการในสถานการณ์ต่างๆ
+                            </p>
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span data-th="ฝึกซ้อมในสนามจริง" data-en="Practice on real courses">ฝึกซ้อมในสนามจริง</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="กลยุทธ์การเล่น" data-en="Playing strategies">กลยุทธ์การเล่น</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="การจัดการ Course Management" data-en="Course Management">การจัดการ Course Management</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="เทคนิคช็อตพิเศษ" data-en="Special shot techniques">เทคนิคช็อตพิเศษ</span></li>
+                            </ul>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span data-th="60 นาที/ครั้ง" data-en="60 minutes/session">60 นาที/ครั้ง</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i>
+                                    <span data-th="1 คน" data-en="1 person">1 คน</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-action">
+                            <a href="contact.html" class="course-button" data-th="สอบถามรายละเอียด" data-en="Inquire Details">สอบถามรายละเอียด</a>
+                        </div>
+                    </div>
+
+                    <!-- คอร์สกลุ่ม -->
+                    <div class="course-card special">
+                        <div class="course-header">
+                            <div class="course-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="course-badge special" data-th="พิเศษ" data-en="Special">พิเศษ</div>
+                        </div>
+                        <div class="course-content">
+                            <h3 data-th="หลักสูตรกลุ่ม" data-en="Group Course">หลักสูตรกลุ่ม</h3>
+                            <p class="course-subtitle" data-th="ในสถานที่ / นอกสถานที่" data-en="On-site / Off-site">ในสถานที่ / นอกสถานที่</p>
+                            <p class="course-description" data-th="เหมาะสำหรับกลุ่มเพื่อน บริษัท หรือองค์กรที่ต้องการเรียนแบบกลุ่ม สามารถจัดที่สนามหรือนอกสถานที่ตามความต้องการ" data-en="Perfect for friends, companies, or organizations who want group lessons. Can be arranged at the course or off-site as needed.">
+                                เหมาะสำหรับกลุ่มเพื่อน บริษัท หรือองค์กรที่ต้องการเรียนแบบกลุ่ม 
+                                สามารถจัดที่สนามหรือนอกสถานที่ตามความต้องการ
+                            </p>
+                            <ul class="course-features">
+                                <li><i class="fas fa-check"></i> <span data-th="รูปแบบยืดหยุ่น" data-en="Flexible format">รูปแบบยืดหยุ่น</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="ราคาพิเศษสำหรับกลุ่ม" data-en="Special group rates">ราคาพิเศษสำหรับกลุ่ม</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="จัดได้ทั้งในและนอกสถานที่" data-en="Available on-site and off-site">จัดได้ทั้งในและนอกสถานที่</span></li>
+                                <li><i class="fas fa-check"></i> <span data-th="กิจกรรมเสริมสร้างทีมเวิร์ก" data-en="Team building activities">กิจกรรมเสริมสร้างทีมเวิร์ก</span></li>
+                            </ul>
+                            <div class="course-details">
+                                <div class="detail-item">
+                                    <i class="fas fa-clock"></i>
+                                    <span data-th="60 นาที/ครั้ง" data-en="60 minutes/session">60 นาที/ครั้ง</span>
+                                </div>
+                                <div class="detail-item">
+                                    <i class="fas fa-users"></i>
+                                    <span data-th="2+ คน" data-en="2+ people">2+ คน</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="course-action">
+                            <a href="contact.html" class="course-button special" data-th="สอบถามราคาพิเศษ" data-en="Inquire Special Rates">สอบถามราคาพิเศษ</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="courses-cta">
+                    <div class="cta-content">
+                        <h3 data-th="ยังไม่แน่ใจว่าหลักสูตรไหนเหมาะกับคุณ?" data-en="Not sure which course is right for you?">ยังไม่แน่ใจว่าหลักสูตรไหนเหมาะกับคุณ?</h3>
+                        <p data-th="ติดต่อเราเพื่อรับคำปรึกษาฟรี เราจะช่วยแนะนำหลักสูตรที่เหมาะสมที่สุดสำหรับคุณ" data-en="Contact us for free consultation. We'll help recommend the most suitable course for you.">ติดต่อเราเพื่อรับคำปรึกษาฟรี เราจะช่วยแนะนำหลักสูตรที่เหมาะสมที่สุดสำหรับคุณ</p>
+                        <a href="contact.html" class="cta-button">
+                            <i class="fas fa-phone"></i>
+                            <span data-th="ปรึกษาฟรี" data-en="Free Consultation">ปรึกษาฟรี</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="special-courses">
+            <div class="container">
+                <h2 class="section-title" data-th="หลักสูตรพิเศษ" data-en="Special Courses">หลักสูตรพิเศษ</h2>
+                <div class="courses-grid">
+                    <div class="course-card">
+                        <div class="course-header">
+                            <h3 data-th="หลักสูตรพัฒนาเฉพาะจุด" data-en="Specific Skill Development Course">หลักสูตรพัฒนาเฉพาะจุด</h3>
+                            <p class="course-duration" data-th="ครั้งละ 1-2 ชั่วโมง" data-en="1-2 hours per session">ครั้งละ 1-2 ชั่วโมง</p>
+                        </div>
+                        <div class="course-details">
+                            <h4 data-th="เทคนิคที่จะฝึก:" data-en="Techniques to Practice:">เทคนิคที่จะฝึก:</h4>
+                            <ul class="course-features">
+                                <li data-th="ฝึกเฉพาะ Driver" data-en="Driver-specific training">ฝึกเฉพาะ Driver</li>
+                                <li data-th="ฝึก Chipping" data-en="Chipping practice">ฝึก Chipping</li>
+                                <li data-th="ฝึก Putting" data-en="Putting practice">ฝึก Putting</li>
+                            </ul>
+                            <p class="course-description" data-th="เหมาะสำหรับผู้ที่ต้องการพัฒนาทักษะเฉพาะด้าน" data-en="Perfect for those who want to develop specific skills">เหมาะสำหรับผู้ที่ต้องการพัฒนาทักษะเฉพาะด้าน</p>
+                        </div>
+                        <div class="course-info">
+                            <div class="info-item">
+                                <i class="fas fa-users"></i>
+                                <span data-th="1-2 คน" data-en="1-2 people">1-2 คน</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span data-th="60-120 นาที" data-en="60-120 minutes">60-120 นาที</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="course-card">
+                        <div class="course-header">
+                            <h3 data-th="หลักสูตรออกกรอบเป็นเพื่อน" data-en="On-Course Companion Course">หลักสูตรออกกรอบเป็นเพื่อน</h3>
+                            <p class="course-duration" data-th="เต็มรอบ 18 หลุม" data-en="Full 18-hole round">เต็มรอบ 18 หลุม</p>
+                        </div>
+                        <div class="course-details">
+                            <h4 data-th="สิ่งที่จะได้เรียนรู้:" data-en="What You'll Learn:">สิ่งที่จะได้เรียนรู้:</h4>
+                            <ul class="course-features">
+                                <li data-th="แนะนำเทคนิคการเล่นในสนามจริง" data-en="Real course playing techniques">แนะนำเทคนิคการเล่นในสนามจริง</li>
+                                <li data-th="วางแผนการเล่น" data-en="Game planning strategies">วางแผนการเล่น</li>
+                                <li data-th="ให้ความรู้เรื่องกลยุทธ์" data-en="Strategic knowledge">ให้ความรู้เรื่องกลยุทธ์</li>
+                            </ul>
+                            <p class="course-description" data-th="รูปแบบเหมือนมีโค้ชเดินเป็นเพื่อน ให้คำแนะนำตลอดการเล่น" data-en="Like having a coach as your companion, providing guidance throughout the game">รูปแบบเหมือนมีโค้ชเดินเป็นเพื่อน ให้คำแนะนำตลอดการเล่น</p>
+                        </div>
+                        <div class="course-info">
+                            <div class="info-item">
+                                <i class="fas fa-users"></i>
+                                <span data-th="1-3 คน" data-en="1-3 people">1-3 คน</span>
+                            </div>
+                            <div class="info-item">
+                                <i class="fas fa-clock"></i>
+                                <span data-th="4-5 ชั่วโมง" data-en="4-5 hours">4-5 ชั่วโมง</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="operating-hours">
+                    <h3 data-th="เวลาทำการ" data-en="Operating Hours">เวลาทำการ</h3>
+                    <div class="hours-grid">
+                        <div class="hours-item">
+                            <span class="day" data-th="เสาร์-อาทิตย์" data-en="Saturday-Sunday">เสาร์-อาทิตย์</span>
+                            <span class="time">9.00-19.00</span>
+                        </div>
+                        <div class="hours-item">
+                            <span class="day" data-th="จันทร์-ศุกร์" data-en="Monday-Friday">จันทร์-ศุกร์</span>
+                            <span class="time">11.00-19.00</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-benefits">
+            <div class="container">
+                <h2 class="section-title" data-th="ข้อดีของการเรียนกับเรา" data-en="Benefits of Learning with Us">ข้อดีของการเรียนกับเรา</h2>
+                <div class="benefits-grid">
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-user-graduate"></i>
+                        </div>
+                        <h3 data-th="โปรมืออาชีพ" data-en="Professional Instructors">โปรมืออาชีพ</h3>
+                        <p data-th="เรียนกับโปรที่มีใบรับรองและประสบการณ์จริง" data-en="Learn with certified and experienced professionals">เรียนกับโปรที่มีใบรับรองและประสบการณ์จริง</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h3 data-th="ตารางยืดหยุ่น" data-en="Flexible Schedule">ตารางยืดหยุ่น</h3>
+                        <p data-th="จัดตารางเรียนได้ตามความสะดวกของคุณ" data-en="Schedule lessons at your convenience">จัดตารางเรียนได้ตามความสะดวกของคุณ</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 data-th="อุปกรณ์ครบครัน" data-en="Complete Equipment">อุปกรณ์ครบครัน</h3>
+                        <p data-th="มีอุปกรณ์ทันสมัยให้ใช้ในการเรียน" data-en="Modern equipment available for learning">มีอุปกรณ์ทันสมัยให้ใช้ในการเรียน</p>
+                    </div>
+                    <div class="benefit-item">
+                        <div class="benefit-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3 data-th="ติดตามความก้าวหน้า" data-en="Progress Tracking">ติดตามความก้าวหน้า</h3>
+                        <p data-th="วัดผลและติดตามพัฒนาการอย่างต่อเนื่อง" data-en="Continuous assessment and progress monitoring">วัดผลและติดตามพัฒนาการอย่างต่อเนื่อง</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 data-th="โปรธนา กอล์ฟ สตูดิโอ" data-en="Pro Tana Golf Studio">โปรธนา กอล์ฟ สตูดิโอ</h3>
+                    <p data-th="โรงเรียนสอนกอล์ฟมืออาชีพ ก่อตั้งเมื่อ 1 กรกฎาคม 2568" data-en="Professional Golf School founded on July 1, 2025">โรงเรียนสอนกอล์ฟมืออาชีพ ก่อตั้งเมื่อ 1 กรกฎาคม 2568</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-th="ลิงก์ด่วน" data-en="Quick Links">ลิงก์ด่วน</h4>
+                    <ul>
+                        <li><a href="about.html" data-th="เกี่ยวกับเรา" data-en="About Us">เกี่ยวกับเรา</a></li>
+                        <li><a href="courses.html" data-th="หลักสูตร" data-en="Courses">หลักสูตร</a></li>
+                        <li><a href="contact.html" data-th="ติดต่อเรา" data-en="Contact">ติดต่อเรา</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-th="ติดต่อ" data-en="Contact">ติดต่อ</h4>
+                    <p><i class="fas fa-phone"></i> 083-953-6664</p>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-th="ปทุมธานี" data-en="Pathum Thani">ปทุมธานี</span></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p data-th="&copy; 2568 โปรธนา กอล์ฟ สตูดิโอ สงวนลิขสิทธิ์" data-en="&copy; 2025 Pro Tana Golf Studio. All Rights Reserved.">&copy; 2568 โปรธนา กอล์ฟ สตูดิโอ สงวนลิขสิทธิ์</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
